@@ -1,13 +1,20 @@
 {
     "name": "codetechnl/nova-aws-cloudwatch",
-    "description": "A Laravel Nova tool.",
+    "description": "Laravel Nova 4 | Get the logs from AWS CloudWatch",
     "keywords": [
         "laravel",
         "nova"
     ],
+    "authors": [
+        {
+            "name": "Donny van Grondelle",
+            "email": "info@codetech.nl"
+        }
+    ],
     "license": "MIT",
     "require": {
-        "php": "^7.3|^8.0"
+        "php": "^7.3|^8.0",
+        "laravel/nova": "~4.0"
     },
     "autoload": {
         "psr-4": {
